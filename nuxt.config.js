@@ -19,6 +19,10 @@ module.exports = {
     ]
   },
 
+  router: {
+    middleware: ['auth-cookie']
+  },
+
   /*
   ** Customize the progress-bar color
   */
@@ -28,7 +32,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    '~/assets/common.css'
   ],
 
   /*
